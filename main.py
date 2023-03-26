@@ -9,8 +9,8 @@ UPDATE_INTERVAL = 15  # seconds
 
 
 def main():
-    bat_full_path = BAT_PATH + "/energy_full"
-    bat_now_path = BAT_PATH + "/energy_now"
+    bat_full_path = BAT_PATH + "/charge_full"
+    bat_now_path = BAT_PATH + "/charge_now"
     bat_status_path = BAT_PATH + "/status"
 
     bat_charges = {50: False, 30: False, 20: False, 10: False, 5: False}
