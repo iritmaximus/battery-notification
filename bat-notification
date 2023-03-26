@@ -1,0 +1,17 @@
+#!/sbin/openrc-run
+# Copyright 2021 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+#export DISPLAY=":0"
+#echo $DISPLAY
+
+# huoh... gave up as dbus wouldn't work :(
+
+name="Battery notification"
+description="Sends battery notifications on certain intervals"
+command="dbus-launch /usr/local/bin/battery-notification.py"
+command_args="${service_args}"
+#command_user="user:user"
+
+#depend() {
+#}
