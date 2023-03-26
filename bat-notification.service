@@ -1,0 +1,8 @@
+[Unit]
+Description=Battery notification
+
+[Service]
+ExecStart=/usr/local/bin/battery-notification.py
+
+[Install]
+WantedBy=multi-user.target
