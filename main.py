@@ -5,7 +5,7 @@ import subprocess
 from time import sleep
 
 BAT_PATH = "/sys/class/power_supply/BAT0"
-UPDATE_INTERVAL = 15  # seconds
+UPDATE_INTERVAL = 30  # seconds
 
 
 def main():
